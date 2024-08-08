@@ -1,0 +1,142 @@
+
+/*Whole doc formatting*/
+html {
+  padding-top: 3em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 10em;
+  text-align: center;
+  font-family: "Helvetica", bold;
+  font: "Helvetica";
+}
+
+/*Whole form formatting*/
+.main-form {
+  display: grid;
+  grid-template-columns: 250px 200px 180px 200px 200px;
+  grid-template-rows: 150px 70px 70px 70px 80px 80px;
+  font: "Helvetica";
+  letter-spacing: 0.05em;
+
+}
+
+/*Form title*/
+#form-title {
+  text-align: right;
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+  font-size: 3em;
+  padding-top: 100px;
+  line-height: 1.3em;
+}
+
+/*Input fields*/
+.input-fields {
+  place-items: end;
+  margin-top: 20px;
+
+}
+/*Deposit label formatting*/
+#deposit-label {
+  grid-column: 2 / 3;
+  text-align: right;
+
+}
+
+/*Deposit button formatting*/
+#deposit {
+  grid-column: 2 / 3;
+}
+
+/*Withdraw label formatting*/
+#withdraw-label {
+  grid-column: 2 / 3;
+  text-align: right;
+}
+
+/*Withdraw button formatting*/
+#withdraw {
+  justify-self: end;
+  border-color: white;
+}
+
+/*Interest label formatting*/
+#interest {
+ text-align: right;
+ grid-column: 3 / 4;
+ margin-top: 0em;
+ margin-right: 1em;
+}
+
+/*Bank fees label formatting*/
+#bank-fees {
+  text-align: right;
+  grid-column: 3 / 4;
+  margin-top: 0em;
+  margin-right: 1em;
+}
+
+/*All buttons formatting*/
+.button {
+  margin: 1em;
+  height: 3em;
+  max-width: 5em;
+  background-color: lightblue;
+  border: none;
+  padding: 0.5em;
+  margin-top: -10px;
+  border-radius: 0.2em;
+  font-size: 15px;
+  font: "Helvetica";
+  letter-spacing: 0.05em;
+}
+
+/*Withdraw button formatting*/
+#withdraw-button{
+  padding-right: 5.6em;
+  padding-left: 1em;
+  text-align: left;
+}
+
+/*Whole balance formatting*/
+#balance {
+  font-size: 30px;
+  color: dodgerblue;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  grid-row: 1 / 2;
+  grid-column: 2 / 5;
+}
+
+/*Reset button formatting*/
+#reset-button {
+  background-color: darkblue;
+  border: none;
+  border-radius: 0.5em;
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  margin-top: 50px;
+  margin-left: -9em;
+}
+
+/*Alert message formatting*/
+#alert {
+  background-color: red;
+  color: white;
+  grid-row: 6/7;
+  grid-column: 3/5;
+  max-width: 300px;
+  border-radius: 0.2em;
+  padding-bottom: 6.5em;
+}
+
+/*Alert button formatting*/
+#alert-button {
+  background-color: transparent;
+  color: white;
+  padding: 0.5em;
+}
